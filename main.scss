@@ -1,5 +1,6 @@
 :root {
   --color-blue-001: #1438bc;
+  --color-blue-002: #112e97;
 }
 body {
   width: 100vh;
@@ -47,6 +48,10 @@ body {
       background-color: var(--color-blue-001);
       border-radius: 50px;
       box-sizing: border-box;
+    }
+    .btn:hover {
+      background-color: var(--color-blue-002);
+      box-shadow: 0 0 0 0.15rem rgba(52, 52, 52, 0.25);
     }
   }
   .url-area {

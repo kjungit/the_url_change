@@ -2,7 +2,6 @@ const formEl = document.querySelector(".form-area");
 const inputEl = document.querySelector(".msg");
 const txtEl = document.querySelector(".txt");
 
-// 검색했을 때
 formEl.addEventListener("submit", (e) => {
   const msgValue = inputEl.value.trim();
   e.preventDefault();
@@ -16,9 +15,6 @@ formEl.addEventListener("submit", (e) => {
     alert("정상적인 google drive img 주소가 아닙니다.");
   }
 });
-
-const test =
-  "https://drive.google.com/file/d/13ZXjaqV15-sHWEv4lqTaZmvjUI1gIIxC/view?usp=share_link";
 
 const front = "https://drive.google.com/file/d/";
 const back = "/view?usp=share_link";

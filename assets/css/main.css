@@ -1,5 +1,6 @@
 :root {
   --color-blue-001: #1438bc;
+  --color-blue-002: #112e97;
 }
 
 body {
@@ -46,6 +47,10 @@ body .form-area .btn {
   background-color: var(--color-blue-001);
   border-radius: 50px;
   box-sizing: border-box;
+}
+body .form-area .btn:hover {
+  background-color: var(--color-blue-002);
+  box-shadow: 0 0 0 0.15rem rgba(52, 52, 52, 0.25);
 }
 body .url-area {
   box-sizing: border-box;

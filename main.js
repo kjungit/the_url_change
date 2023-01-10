@@ -5,6 +5,7 @@ const txtEl = document.querySelector(".txt");
 formEl.addEventListener("submit", (e) => {
   const msgValue = inputEl.value.trim();
   e.preventDefault();
+  console.log(msgValue);
   if (urlCheck(msgValue)) {
     const res = urlSlice(msgValue);
     txtEl.textContent = res;
